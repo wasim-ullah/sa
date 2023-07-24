@@ -1,48 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    @property --hue {
-  syntax: '<angle>';
-  initial-value: 0turn;
-  inherits: false;
-}
-
-@keyframes hue-cycle { to {
-  --hue: 1turn;
-}}
-
-body {
-  display: grid;
-  place-content: center;
-  padding-block: 4rem;
-  padding-inline: 2rem;
-  font-family: system-ui;
-  
-  background-color: hsl(48, 63%, 96%));
-}
-
-body, h1, h2, h3, p, a {
-  animation: hue-cycle 1s linear both;
-  animation-timeline: scroll();
-}
-
-h1, h2, h3 {
-  color: hsl(48, 63%, 96%));
-  max-inline-size: 20ch;
-}
-
-p {
-  color: hsl(48, 63%, 96%));
-  max-inline-size: 40ch;
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
-
-a {
-  color: hsl(48, 63%, 96%));
-}
-    </style>
 </head>
 <body>
 <p>We are a marketing agency.</p>
